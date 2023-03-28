@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(238, 212, 255);
+}
+.container {
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time {
+color: rgb(39, 39, 39);
+font-size: 150px;
+}
+button {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+ul {
+    list-style: none;
+}
+li {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.footerr{
+    position: fixed;
+  	bottom: 0;
+
+  	left: 50%;
+  	transform: translate(-50%, 0);
+  
+  	margin-bottom: 2%;
+}
